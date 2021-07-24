@@ -1,3 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "hugo-tanka"
+
+[menu]
+[[menu.main]]
+name = "About Me"
+url = "/about"
+weight = 1
