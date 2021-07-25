@@ -1,10 +1,26 @@
-baseURL = "http://example.org/"
+baseURL = "https://gorgew.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hugo-tanka"
+title = "George Wang"
+theme = "anubis"
 
-[menu]
+[params]
+  sitename = "George Wang"
+ 
 [[menu.main]]
-name = "About Me"
-url = "/about"
+name = "About"
+url = "/"
 weight = 1
+
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 2
+
+[[params.social]]
+id= "github"
+name= "gorgew"
+
+[[params.social]]
+id= "linkedin"
+name= "g-s-wang"
